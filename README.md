@@ -12,14 +12,11 @@ The goals / steps of this project are the following:
   
 * Reflect on your work in a written report.
   Suggestions are listed with future improvements.
-
  
 ---
 
 Original Image:
 ![](./test_images/solidWhiteCurve.jpg)
-Image with Lanes:
-![](./test_images_output/solidWhiteCurve.jpg)
 
 ---
 
@@ -35,20 +32,16 @@ Image with Lanes:
 * Calculate the lines corresponding to the left and right lanes by linear regression.
 * Draw the lines over the original image. 
 
-solidWhiteRight result example:
-
-<video src="test_videos_output/solidWhiteRight.mp4" poster="solidWhiteRight.jpg" width="320" height="200" controls preload></video>
-
-
+---
 solidYellowLeft result example:
+<video src="./test_videos_output/solidYellowLeft.mp4" poster="solidYellowLeft.jpg" width="320" height="200" controls preload></video>
 
-<video src="test_videos_output/solidYellowLeft.mp4" poster="solidYellowLeft.jpg" width="320" height="200" controls preload></video>
-
+solidWhiteRight result example:
+<video src="./test_videos_output/solidWhiteRight.mp4" poster="solidWhiteRight.jpg" width="320" height="200" controls preload></video>
 
 Challenge result example:
-
-<video src="test_videos_output/challenge.mp4" poster="challenge.jpg" width="320" height="200" controls preload></video>
-
+<video src="./test_videos_output/challenge.mp4" poster="challenge.jpg" width="320" height="200" controls preload></video>
+---
 
 ### 2. Potential Shortcomings
 
@@ -68,6 +61,8 @@ Challenge result example:
 
 ------------------------------------------------------------------------------------
 
+### Reflection
+
 ### 1. Pipeline of wgb_challenge Project
 
 * Load the image and convert it to grayscale.
@@ -76,29 +71,23 @@ Challenge result example:
 * Define the region of interest.
 * Recognize and clear cursor (horizontal and vertical gaze lines) with hough transformation and inpaint.
 
+---
 Frame example:
-
-<img src="test_videos_output_debug/2-image.jpg" width="320" height="200"</img>
-
-
+![](./test_videos_output_debug/2-image.jpg)
 Mask example:
-
-<img src="test_videos_output_debug/2-mask_cursor.jpg" width="320" height="200" ></img>
-
-
+![](./test_videos_output_debug/2-mask_cursor.jpg)
 Result example:
-
-<img src="test_videos_output_debug/2-image_clean.jpg" width="320" height="200" ></img>
-
+![](./test_videos_output_debug/2-image_clean.jpg)
+---
 
 * Apply hough transformation to find the lines.
 * Calculate the left lane by linear regression and estimation right lane.
 * Draw the lines over the original image. 
 
+---
 wgb_challenge result example:
-
-<video src="test_videos_output/wgbChallenge.mp4" poster="wgbChallenge.jpg" width="320" height="200" controls preload></video>
-
+<video src="./test_videos_output/wgbChallenge.mp4" poster="wgbChallenge.jpg" width="320" height="200" controls preload></video>
+---
 
 ### 2. Potential Deficiencies in wgb_challenge pipeline
 
