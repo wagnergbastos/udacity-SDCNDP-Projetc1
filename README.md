@@ -36,13 +36,19 @@ Image with Lanes:
 * Draw the lines over the original image. 
 
 solidWhiteRight result example:
+
 <video src="test_videos_output/solidWhiteRight.mp4" poster="solidWhiteRight.jpg" width="320" height="200" controls preload></video>
 
+
 solidYellowLeft result example:
+
 <video src="test_videos_output/solidYellowLeft.mp4" poster="solidYellowLeft.jpg" width="320" height="200" controls preload></video>
 
+
 Challenge result example:
+
 <video src="test_videos_output/challenge.mp4" poster="challenge.jpg" width="320" height="200" controls preload></video>
+
 
 ### 2. Potential Shortcomings
 
@@ -71,20 +77,28 @@ Challenge result example:
 * Recognize and clear cursor (horizontal and vertical gaze lines) with hough transformation and inpaint.
 
 Frame example:
+
 <img src="test_videos_output_debug/2-image.jpg" width="320" height="200"</img>
 
+
 Mask example:
+
 <img src="test_videos_output_debug/2-mask_cursor.jpg" width="320" height="200" ></img>
 
+
 Result example:
+
 <img src="test_videos_output_debug/2-image_clean.jpg" width="320" height="200" ></img>
+
 
 * Apply hough transformation to find the lines.
 * Calculate the left lane by linear regression and estimation right lane.
 * Draw the lines over the original image. 
 
 wgb_challenge result example:
+
 <video src="test_videos_output/wgbChallenge.mp4" poster="wgbChallenge.jpg" width="320" height="200" controls preload></video>
+
 
 ### 2. Potential Deficiencies in wgb_challenge pipeline
 
