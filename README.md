@@ -14,13 +14,10 @@ The goals / steps of this project are the following:
   Suggestions are listed with future improvements.
  
 ---
-
 Original Image:
 ![](./test_images/solidWhiteCurve.jpg)
-
 Original Image with lanes:
 ![](./test_videos_output/solidWhiteRight_Moment.jpg)
-
 ---
 
 ### Reflection A
