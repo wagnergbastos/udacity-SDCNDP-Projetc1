@@ -33,6 +33,14 @@ Original Image with lanes:
 * Draw the lines over the original image. 
 
 ---
+<!-- blank line -->
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="./test_videos_output/solidYellowLeft.jpg">
+    <source src="./test_videos_output/solidYellowLeft.mp4" type="video/mp4">
+  </video>
+</figure>
+<!-- blank line -->
+
 solidYellowLeft result example:
 <video src="./test_videos_output/solidYellowLeft.mp4" poster="solidYellowLeft.jpg" width="320" height="200" controls preload></video>
 
