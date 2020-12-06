@@ -18,8 +18,6 @@ Original Image:
 ![](./test_images/solidWhiteCurve.jpg)
 Original Image with lanes:
 ![](./test_videos_output/solidWhiteRight_Moment.jpg)
-
-![Screenshot](solidWhiteRight_Moment.jpg)
 ---
 
 ### Reflection A
