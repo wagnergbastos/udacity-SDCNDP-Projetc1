@@ -18,9 +18,12 @@ The goals / steps of this project are the following:
 Original Image:
 ![](./test_images/solidWhiteCurve.jpg)
 
+Original Image with lanes:
+![](./test_videos_output/solidWhiteRight_Moment.jpg)
+
 ---
 
-### Reflection
+### Reflection A
 
 ### 1. Pipeline of Project
 
@@ -61,7 +64,7 @@ Challenge result example:
 
 ------------------------------------------------------------------------------------
 
-### Reflection
+### Reflection B
 
 ### 1. Pipeline of wgb_challenge Project
 
