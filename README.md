@@ -84,7 +84,7 @@ Result example:
 * Draw the lines over the original image. 
 
 wgb_challenge result example:
-<video src="test_videos_output/wgb_challenge.mp4" poster="wgb_challenge.jpg" width="320" height="200" controls preload></video>
+<video src="test_videos_output/wgbChallenge.mp4" poster="wgbChallenge.jpg" width="320" height="200" controls preload></video>
 
 ### 2. Potential Deficiencies in wgb_challenge pipeline
 
