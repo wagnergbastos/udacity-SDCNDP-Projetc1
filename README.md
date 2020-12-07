@@ -80,9 +80,9 @@ The goals / steps of this project are the following:
   
 ---
 Original Image:
-![](./test_images/solidWhiteCurve.jpg)
+![](./test_videos_output_debug/wgbChallenge_Moment.jpg)
 Original Image with lanes:
-![](./test_videos_output/solidWhiteRight_Moment.jpg)
+![](./test_videos_output_debug/wgbChallenge_Moment_lane.jpg)
 ---
 
 ### Reflection
