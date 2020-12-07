@@ -48,7 +48,7 @@ The goals / steps of this project are the following:
 * Apply other filters to recognize shaded or changing color lanes.
 
 ---
-# My project wgbChallenge Extra
+# My project wgbChallenge
 ---
 
 The goals / steps of this project are the following:
