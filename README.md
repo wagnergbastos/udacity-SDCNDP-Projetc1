@@ -39,10 +39,10 @@ Original Image with lanes:
 * Draw the lines over the original image. 
 
 ---
-The result is in [test_videos_output](https://github.com/wagnergbastos/udacity-SDCNFP-Project1/test_videos_output): white_improved.mp4 and yellow_improved.mp4.
+The result is in [test_videos_output](./test_videos_output): white_improved.mp4 and yellow_improved.mp4.
 
 <video width="320" height="200" controls preload> 
-    <source src="https://github.com/wagnergbastos/udacity-SDCNFP-Project1/test_videos_output/solidYellowLeft.mp4"></source> 
+    <source src="https://./test_videos_output/solidYellowLeft.mp4"></source> 
 </video>
 ---
 
