@@ -1,5 +1,11 @@
 # **Finding Lane Lines on the Road** 
 
+
+[//]: # (Image References)
+[image1]: ./test_images/solidWhiteCurve.jpg "Original Image:"
+
+
+
 ## Udacity Self-Driving Car Engineer Project 1
 ---
 
@@ -15,7 +21,7 @@ The goals / steps of this project are the following:
  
 ---
 Original Image:
-![](./test_images/solidWhiteCurve.jpg)
+![alt text][image1]
 Original Image with lanes:
 ![](./test_videos_output/solidWhiteRight_Moment.jpg)
 ---
@@ -33,8 +39,10 @@ Original Image with lanes:
 * Draw the lines over the original image. 
 
 ---
+The result is in [test_videos_output](https://github.com/wagnergbastos/udacity-SDCNFP-Project1/test_videos_output): white_improved.mp4 and yellow_improved.mp4.
+
 <video width="320" height="200" controls preload> 
-    <source src="/test_videos_output/solidYellowLeft.mp4"></source> 
+    <source src="https://github.com/wagnergbastos/udacity-SDCNFP-Project1/test_videos_output/solidYellowLeft.mp4"></source> 
 </video>
 ---
 
