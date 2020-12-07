@@ -47,19 +47,13 @@ The goals / steps of this project are the following:
 * When you do not recognize a lane, you can use the previous recognized lane.
 * Apply other filters to recognize shaded or changing color lanes.
 
-
-
-
-
-
-
 ---
 # wgbChallenge Extra Project
 ---
 
 The goals / steps of this project are the following:
 
-* Make a pipeline that finds lane lines on the road.
+* Make a pipeline that finds lane lines on the road: 
   wgbChallenge (wgb are my initials) is part of my master's degree to recognizing anxiety in drivers in simulators with eye tracking devices.
   This video has a cursor (horizontal and vertical lines) that represents the driver's gaze on areas of interest (lanes and cars).
   First, I need to recognize the lanes to count how often and for how long time the driver looks at them.
@@ -73,21 +67,19 @@ The goals / steps of this project are the following:
 
 ### 1. Pipeline of wgb_challenge Project
 
-* Load the image and convert it to grayscale.
-* Apply Gaussian smoothing.
-* Use canny edge detector to find the edges.
-* Define the region of interest.
 * Recognize and clear cursor (horizontal and vertical gaze lines) with hough transformation and inpaint.
 
 #### Frame example:
 <img src="./test_videos_output_debug/2-image.jpg" width="480" alt="" />
-
 #### Mask example:
 <img src="./test_videos_output_debug/2-mask_cursor.jpg" width="480" alt="" />
-
 #### Result example:
 <img src="./test_videos_output_debug/2-image_clean.jpg" width="480" alt="" />
 
+* Load the image and convert it to grayscale.
+* Apply Gaussian smoothing.
+* Use canny edge detector to find the edges.
+* Define the region of interest.
 * Apply hough transformation to find the lines.
 * Calculate the left lane by linear regression and estimation right lane.
 * Draw the lines over the original image. 
@@ -103,4 +95,4 @@ The goals / steps of this project are the following:
 * Research image processing techniques to improve contrast and color recognition.
 * Study more geometric recognition methods, such as: estimation of the right line, angle correction, speed of lane change, etc. for better lanes recognition.
 
-* Note: If possible, I would like to receive more suggestions on techniques for recognizing shapes and objects (lanes and cars) to help with my master's degree project. I need to recognize lanes and cars in 4 hours of videos like this.
+#### Note: If possible, I would like to receive more suggestions on techniques for recognizing shapes and objects (lanes and cars) to help with my master's degree project. I need to recognize lanes and cars in 4 hours of videos like this.
