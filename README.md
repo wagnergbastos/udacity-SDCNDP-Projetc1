@@ -33,11 +33,6 @@ Original Image with lanes:
 * Draw the lines over the original image. 
 
 ---
-<video controls="true" allowfullscreen="true" poster="./test_videos_output/solidYellowLeft.jpg">
-  <source src="./test_videos_output/solidYellowLeft.mp4" type="video/mp4">
-</video>
-
-
 solidYellowLeft result example:
 <video src="./test_videos_output/solidYellowLeft.mp4" poster="solidYellowLeft.jpg" width="320" height="200" controls preload></video>
 
@@ -64,12 +59,9 @@ Challenge result example:
 * When you do not recognize a lane, you can use the previous recognized lane.
 * Apply other filters to recognize shaded or changing color lanes.
 
-------------------------------------------------------------------------------------
-
-## wgbChallenge Project
 ---
-
-**Finding Lane Lines on the Road**
+**wgbChallenge Finding Lane Lines on the Road**
+---
 
 The goals / steps of this project are the following:
 
