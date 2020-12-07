@@ -1,11 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-
-[//]: # (Image References)
-[image1]: ./test_images/solidWhiteCurve.jpg "Original Image:"
-
-
-
 ## Udacity Self-Driving Car Engineer Project 1
 ---
 
@@ -20,9 +14,9 @@ The goals / steps of this project are the following:
   Suggestions are listed with future improvements.
  
 ---
-Original Image:
-![alt text][image1]
-Original Image with lanes:
+#### Original Image:
+![](./test_images/solidWhiteCurve.jpg)
+#### Original Image with lanes:
 ![](./test_videos_output/solidWhiteRight_Moment.jpg)
 ---
 
@@ -39,11 +33,7 @@ Original Image with lanes:
 * Draw the lines over the original image. 
 
 ---
-The result is in [test_videos_output](./test_videos_output): white_improved.mp4 and yellow_improved.mp4.
-
-<video width="320" height="200" controls preload> 
-    <source src="https://./test_videos_output/solidYellowLeft.mp4"></source> 
-</video>
+The result is in [test_videos_output](./test_videos_output): solidWhiteRight.mp4, solidYellowLeft.mp4 and challenge.mp4.
 ---
 
 ### 2. Potential Shortcomings
@@ -74,9 +64,9 @@ The goals / steps of this project are the following:
   First, I need to recognize the lanes to count how often and for how long time the driver looks at them.
   
 ---
-Original Image:
+#### Original Image:
 ![](./test_videos_output_debug/wgbChallenge_Moment.jpg)
-Original Image with lanes:
+#### Original Image with lanes:
 ![](./test_videos_output_debug/wgbChallenge_Moment_lane.jpg)
 ---
 
@@ -106,8 +96,7 @@ Original Image with lanes:
 * Draw the lines over the original image. 
 
 ---
-wgb_challenge result example:
-<video src="./test_videos_output/wgbChallenge.mp4" poster="wgbChallenge.jpg" width="320" height="200" controls preload></video>
+The result is in [test_videos_output](./test_videos_output): wgbChallenge.mp4.
 ---
 
 ### 2. Potential Deficiencies in wgb_challenge pipeline
