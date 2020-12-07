@@ -1,6 +1,7 @@
 # **Finding Lane Lines on the Road** 
 
-## Udacity Self-Driving Car Engineer Project 1
+---
+# Udacity Self-Driving Car Engineer Project 1
 ---
 
 **Finding Lane Lines on the Road**
@@ -13,12 +14,10 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report.
   Suggestions are listed with future improvements.
  
----
 #### Original Image:
 ![](./test_images/solidWhiteCurve.jpg)
 #### Original Image with lanes:
 ![](./test_videos_output/solidWhiteRight_Moment.jpg)
----
 
 ### Reflection
 
@@ -32,9 +31,7 @@ The goals / steps of this project are the following:
 * Calculate the lines corresponding to the left and right lanes by linear regression.
 * Draw the lines over the original image. 
 
----
-The result is in [test_videos_output](./test_videos_output): solidWhiteRight.mp4, solidYellowLeft.mp4 and challenge.mp4.
----
+### The result is in [test_videos_output](./test_videos_output): solidWhiteRight.mp4, solidYellowLeft.mp4 and challenge.mp4.
 
 ### 2. Potential Shortcomings
 
@@ -53,7 +50,7 @@ The result is in [test_videos_output](./test_videos_output): solidWhiteRight.mp4
 * Apply other filters to recognize shaded or changing color lanes.
 
 ---
-**wgbChallenge Finding Lane Lines on the Road**
+# **wgbChallenge Finding Lane Lines on the Road**
 ---
 
 The goals / steps of this project are the following:
@@ -63,12 +60,10 @@ The goals / steps of this project are the following:
   This video has a cursor (horizontal and vertical lines) that represents the driver's gaze on areas of interest (lanes and cars).
   First, I need to recognize the lanes to count how often and for how long time the driver looks at them.
   
----
 #### Original Image:
 ![](./test_videos_output_debug/wgbChallenge_Moment.jpg)
 #### Original Image with lanes:
 ![](./test_videos_output_debug/wgbChallenge_Moment_lane.jpg)
----
 
 ### Reflection
 
@@ -80,7 +75,6 @@ The goals / steps of this project are the following:
 * Define the region of interest.
 * Recognize and clear cursor (horizontal and vertical gaze lines) with hough transformation and inpaint.
 
----
 #### Frame example:
 <img src="./test_videos_output_debug/2-image.jpg" width="480" alt="" />
 
@@ -89,15 +83,12 @@ The goals / steps of this project are the following:
 
 #### Result example:
 <img src="./test_videos_output_debug/2-image_clean.jpg" width="480" alt="" />
----
 
 * Apply hough transformation to find the lines.
 * Calculate the left lane by linear regression and estimation right lane.
 * Draw the lines over the original image. 
 
----
-The result is in [test_videos_output](./test_videos_output): wgbChallenge.mp4.
----
+### The result is in [test_videos_output](./test_videos_output): wgbChallenge.mp4.
 
 ### 2. Potential Deficiencies in wgb_challenge pipeline
 
