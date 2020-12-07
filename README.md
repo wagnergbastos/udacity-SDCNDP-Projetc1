@@ -48,7 +48,7 @@ The goals / steps of this project are the following:
 * Apply other filters to recognize shaded or changing color lanes.
 
 ---
-# wgbChallenge Extra Project
+# My project wgbChallenge Extra
 ---
 
 The goals / steps of this project are the following:
@@ -70,11 +70,13 @@ The goals / steps of this project are the following:
 * Recognize and clear cursor (horizontal and vertical gaze lines) with hough transformation and inpaint.
 
 #### Frame example:
-<img src="./test_videos_output_debug/2-image.jpg" width="480" alt="" />
+<img src="./test_videos_output_debug/2-image.jpg" width="480"/>
+
 #### Mask example:
-<img src="./test_videos_output_debug/2-mask_cursor.jpg" width="480" alt="" />
+<img src="./test_videos_output_debug/2-mask_cursor.jpg" width="480"/>
+
 #### Result example:
-<img src="./test_videos_output_debug/2-image_clean.jpg" width="480" alt="" />
+<img src="./test_videos_output_debug/2-image_clean.jpg" width="480"/>
 
 * Load the image and convert it to grayscale.
 * Apply Gaussian smoothing.
