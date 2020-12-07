@@ -92,11 +92,13 @@ Original Image with lanes:
 
 ---
 Frame example:
-<img src="./test_videos_output_debug/2-image.jpg" width="480" alt="Frame example:" />
+<img src="./test_videos_output_debug/2-image.jpg" width="480" alt="" />
+
 Mask example:
-<img src="./test_videos_output_debug/2-mask_cursor.jpg" width="480" alt="Frame example:" />
+<img src="./test_videos_output_debug/2-mask_cursor.jpg" width="480" alt="" />
+
 Result example:
-<img src="./test_videos_output_debug/2-image_clean.jpg" width="480" alt="Frame example:" />
+<img src="./test_videos_output_debug/2-image_clean.jpg" width="480" alt="" />
 ---
 
 * Apply hough transformation to find the lines.
