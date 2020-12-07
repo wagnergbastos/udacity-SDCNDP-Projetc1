@@ -33,7 +33,6 @@ Original Image with lanes:
 * Draw the lines over the original image. 
 
 ---
-solidYellowLeft result example:
 <video src="./test_videos_output/solidYellowLeft.mp4" width="320" height="200" controls preload></video>
 ---
 
