@@ -33,7 +33,9 @@ Original Image with lanes:
 * Draw the lines over the original image. 
 
 ---
-<video src="./test_videos_output/solidYellowLeft.mp4" width="320" height="200" controls preload></video>
+<video width="320" height="200" controls preload> 
+    <source src="/test_videos_output/solidYellowLeft.mp4"></source> 
+</video>
 ---
 
 ### 2. Potential Shortcomings
