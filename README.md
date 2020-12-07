@@ -30,7 +30,7 @@ The goals / steps of this project are the following:
 * Draw the lines over the original image. 
 
 #### Pipeline step by step:
-![](./test_videos_output_debug/images_lanes.jpg)
+![](./test_videos_output_debug/images_lanes.png)
 
 ### The result is in [test_videos_output](./test_videos_output): solidWhiteRight.mp4, solidYellowLeft.mp4 and challenge.mp4.
 
