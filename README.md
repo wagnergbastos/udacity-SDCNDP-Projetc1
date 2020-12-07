@@ -91,13 +91,12 @@ Original Image with lanes:
 * Recognize and clear cursor (horizontal and vertical gaze lines) with hough transformation and inpaint.
 
 ---
-
+Frame example:
 <img src="./test_videos_output_debug/2-image.jpg" width="480" alt="Frame example:" />
-
 Mask example:
-![](./test_videos_output_debug/2-mask_cursor.jpg)
+<img src="./test_videos_output_debug/2-mask_cursor.jpg" width="480" alt="Frame example:" />
 Result example:
-![](./test_videos_output_debug/2-image_clean.jpg)
+<img src="./test_videos_output_debug/2-image_clean.jpg" width="480" alt="Frame example:" />
 ---
 
 * Apply hough transformation to find the lines.
