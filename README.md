@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 #### Original Image:
 ![](./test_images/solidWhiteCurve.jpg)
 #### Original Image with lanes:
-![](./test_videos_output/solidWhiteRight_Moment.jpg)
+![](./test_videos_output_debug/solidWhiteRight_Moment.jpg)
 
 ### Reflection
 
@@ -28,6 +28,9 @@ The goals / steps of this project are the following:
 * Apply hough transformation to find the lines.
 * Calculate the lines corresponding to the left and right lanes by linear regression.
 * Draw the lines over the original image. 
+
+#### Pipeline step by step:
+![](./test_videos_output_debug/images_lanes.jpg)
 
 ### The result is in [test_videos_output](./test_videos_output): solidWhiteRight.mp4, solidYellowLeft.mp4 and challenge.mp4.
 
