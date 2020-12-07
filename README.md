@@ -34,13 +34,7 @@ Original Image with lanes:
 
 ---
 solidYellowLeft result example:
-<video src="./test_videos_output/solidYellowLeft.mp4" poster="solidYellowLeft.jpg" width="320" height="200" controls preload></video>
-
-solidWhiteRight result example:
-<video src="./test_videos_output/solidWhiteRight.mp4" poster="solidWhiteRight.jpg" width="320" height="200" controls preload></video>
-
-Challenge result example:
-<video src="./test_videos_output/challenge.mp4" poster="challenge.jpg" width="320" height="200" controls preload></video>
+<video src="./test_videos_output/solidYellowLeft.mp4" width="320" height="200" controls preload></video>
 ---
 
 ### 2. Potential Shortcomings
